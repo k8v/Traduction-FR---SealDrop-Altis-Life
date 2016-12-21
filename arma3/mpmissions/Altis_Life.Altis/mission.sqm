@@ -1,4 +1,4 @@
-version=52;
+version=51;
 class EditorData
 {
 	moveGridStep=1;
@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4730;
+		nextID=4724;
 	};
 	class MarkerIDProvider
 	{
@@ -16,18 +16,15 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14285.207,31.616871,18194.686};
-		dir[]={-0.15405238,-0.35139894,-0.92348063};
-		up[]={-0.057821546,0.93622655,-0.34661406};
-		aside[]={-0.9863857,8.4095518e-008,0.16454507};
+		pos[]={5452.5942,153.19086,13092.039};
+		dir[]={0.020049959,-0.74645585,0.66513604};
+		up[]={0.022491159,0.66543418,0.74611872};
+		aside[]={0.99954915,-3.6230631e-008,-0.030130478};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
-	"A3_Ui_F",
-	"A3_Missions_F_Beta",
-	"A3_Ui_F_Curator",
 	"A3_Structures_F_Ind_ConcreteMixingPlant",
 	"A3_Structures_F_Furniture",
 	"A3_Structures_F_Civ_Market",
@@ -49,11 +46,11 @@ addons[]=
 	"A3_Structures_F_EPA_Civ_Constructions",
 	"A3_Structures_F_Ind_Cargo",
 	"A3_Structures_F_Civ_Camping",
-	"A3_Soft_F_Gamma_Truck_01",
+	"A3_Soft_F_Gamma_HEMTT",
 	"A3_Soft_F_EPC_Truck_03",
 	"A3_Structures_F_Civ_Constructions",
 	"A3_Structures_F_Items_Electronics",
-	"A3_Soft_F_Beta_Truck_02",
+	"A3_Soft_F_TruckHeavy",
 	"A3_Structures_F_Kart_Signs_Companies",
 	"A3_Structures_F_Ind_AirPort",
 	"A3_Structures_F_Ind_Transmitter_Tower",
@@ -77,8 +74,9 @@ addons[]=
 	"A3_Structures_F_EPB_Naval_Fishing",
 	"A3_Structures_F_EPC_Civ_Camping",
 	"A3_Structures_F_Civ_Ancient",
-	"A3_Signs_F_Signs_Ad",
+	"A3_Signs_F_AD",
 	"A3_Structures_F_Civ_SportsGrounds",
+	"A3_Data_F",
 	"A3_Structures_F_EPB_Civ_Accessories",
 	"A3_Structures_F_Mil_TentHangar",
 	"A3_Structures_F_EPB_Items_Vessels",
@@ -92,185 +90,23 @@ addons[]=
 	"A3_Structures_F_Items_Documents",
 	"A3_Air_F_EPB_Heli_Light_03",
 	"A3_Structures_F_EPB_Items_Documents",
-	"A3_Structures_F_Items_Food",
+	"A3_Structures_F_Items_Cans",
 	"A3_Structures_F_EPA_Items_Medical",
 	"A3_Structures_F_EPA_Items_Food",
 	"A3_Structures_F_Civ_Garbage",
 	"A3_Structures_F_System",
 	"A3_Structures_F_Bootcamp_Civ_SportsGrounds",
-	"A3_Characters_F",
-	"A3_Characters_F_Exp_Civil",
+	"A3_Characters_F_BLUFOR",
+	"a3_characters_f",
+	"A3_Characters_F_Civil",
+	"A3_Characters_F_EPC",
+	"A3_Characters_F_OPFOR",
+	"A3_Characters_F_INDEP",
+	"A3_Data_F_Curator_Characters",
 	"A3_Modules_F_Effects",
 	"A3_Modules_F",
+	"A3_Characters_F_Gamma",
 	"A3_Characters_F_Kart"
-};
-class AddonsMetaData
-{
-	class List
-	{
-		items=23;
-		class Item0
-		{
-			className="A3_Ui_F";
-			name="Arma 3 - User Interface";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item1
-		{
-			className="A3_Missions_F_Beta";
-			name="Arma 3 Beta - Playable Content";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item2
-		{
-			className="A3_Ui_F_Curator";
-			name="Arma 3 Zeus Update - User Interface";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item3
-		{
-			className="A3_Structures_F_Ind";
-			name="Arma 3 - Industrial Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item4
-		{
-			className="A3_Structures_F";
-			name="Arma 3 - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item5
-		{
-			className="A3_Structures_F_EPC";
-			name="Arma 3 Win Episode - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item6
-		{
-			className="A3_Structures_F_Mil";
-			name="Arma 3 - Military Buildings and Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item7
-		{
-			className="A3_Signs_F";
-			name="Arma 3 - Signs";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item8
-		{
-			className="A3_Structures_F_EPA";
-			name="Arma 3 Survive Episode - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item9
-		{
-			className="A3_Soft_F_Gamma";
-			name="Arma 3 - Unarmored Land Vehicles";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item10
-		{
-			className="A3_Soft_F_EPC";
-			name="Arma 3 Win Episode - Unarmored Land Vehicles";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item11
-		{
-			className="A3_Soft_F_Beta";
-			name="Arma 3 Beta - Unarmored Land Vehicles";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item12
-		{
-			className="A3_Structures_F_Kart";
-			name="Arma 3 Karts - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item13
-		{
-			className="A3_Roads_F";
-			name="Arma 3 - Roads";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item14
-		{
-			className="A3_Structures_F_Wrecks";
-			name="Arma 3 - Vehicle Wrecks";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item15
-		{
-			className="A3_Structures_F_Households";
-			name="Arma 3 - Houses";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item16
-		{
-			className="A3_Structures_F_Bootcamp";
-			name="Arma 3 Bootcamp Update - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item17
-		{
-			className="A3_Structures_F_EPB";
-			name="Arma 3 Adapt Episode - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item18
-		{
-			className="A3_Air_F_EPB";
-			name="Arma 3 Adapt Episode - Aircrafts";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item19
-		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item20
-		{
-			className="A3_Characters_F_Exp";
-			name="Arma 3 Apex - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item21
-		{
-			className="A3_Modules_F";
-			name="Arma 3 Alpha - Scripted Modules";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item22
-		{
-			className="A3_Characters_F_Kart";
-			name="Arma 3 Karts - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-	};
 };
 randomSeed=10698127;
 class ScenarioData
@@ -379,7 +215,7 @@ class Mission
 			dataType="Marker";
 			position[]={14226.52,17.198986,18193.654};
 			name="hpdhq";
-			text=" Police HQ";
+			text=" Police";
 			type="mil_warning";
 			colorName="ColorWEST";
 			angle=359.3407;
@@ -442,7 +278,7 @@ class Mission
 			dataType="Marker";
 			position[]={14276.118,-4.8192625e-021,13044.42};
 			name="CG";
-			text="Gare de cotes";
+			text="Garde côtes";
 			type="c_ship";
 			colorName="ColorWhite";
 			id=14;
@@ -508,7 +344,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={13578.588,-1.1507754e-028,12196.836};
-			name="cocaine processing";
+			name="Cocaine traitement";
 			text="Traitement de Cocaïne";
 			type="mil_dot";
 			colorName="ColorRed";
@@ -2152,7 +1988,7 @@ class Mission
 			dataType="Marker";
 			position[]={11622.567,-3.3763678e-026,11969.034};
 			name="donator_area_1_1_1";
-			text="Donateur HQ";
+			text="Donateur";
 			type="hd_flag";
 			colorName="ColorYellow";
 			id=174;
@@ -2467,7 +2303,7 @@ class Mission
 			dataType="Marker";
 			position[]={12490.794,4.0334604e+037,15195.34};
 			name="gold_bar_dealer";
-			text="Vendeur d'OR";
+			text="Dealer d'OR";
 			type="loc_ViewTower";
 			colorName="ColorYellow";
 			angle=2.5250001;
@@ -2612,7 +2448,7 @@ class Mission
 			dataType="Marker";
 			position[]={20699.92,35.599998,16612.51};
 			name="adac_2";
-			text="ADAC Ost";
+			text="ADAC Est";
 			type="o_maint";
 			colorName="ColorYellow";
 			id=217;
@@ -3025,7 +2861,7 @@ class Mission
 			dataType="Marker";
 			position[]={3492.8372,19.499184,14146.55};
 			name="adac_base";
-			text="ADAC West";
+			text="ADAC Ouest";
 			type="o_maint";
 			colorName="ColorYellow";
 			angle=0.13493721;
@@ -3347,7 +3183,7 @@ class Mission
 			dataType="Marker";
 			position[]={23547.83,-5.9603098e-038,21108.279};
 			name="hq_söldner";
-			text="Mercenaire HQ";
+			text="Mercenaire";
 			type="flag_AAF";
 			id=289;
 			atlOffset=-91.862732;
@@ -3561,7 +3397,7 @@ class Mission
 			dataType="Marker";
 			position[]={16850.092,-2.835213e-022,15468.742};
 			name="zulu";
-			text="Dounane";
+			text="Douane";
 			type="mil_warning";
 			colorName="ColorWEST";
 			id=306;
@@ -3572,7 +3408,7 @@ class Mission
 			dataType="Marker";
 			position[]={18239.494,-2.7969721e-022,17543.145};
 			name="kilo";
-			text="Dounane";
+			text="Douane";
 			type="mil_warning";
 			colorName="ColorWEST";
 			id=307;
@@ -3805,7 +3641,7 @@ class Mission
 				repeatable=1;
 				activationBy="ANY";
 				isRectangle=1;
-				effectTitle="Willkommen im Donator HQ !";
+				effectTitle="Je suis un Donateur !";
 				effectTitleType="TEXT";
 				effectTitleEffect="PLAIN DOWN";
 			};
@@ -74637,17 +74473,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8572.8975,96.755753,25168.682};
-						angles[]={6.2126365,4.98035,6.111557};
+						position[]={8571.8633,97.044006,25170.703};
+						angles[]={0.074527748,4.9885011,6.0200953};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
+						rank="COLONEL";
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_16";
-						description="[WHITELIST] Police 16";
+						description="[CENTRALE] CENTRALE";
 						isPlayable=1;
 					};
 					id=4222;
@@ -74668,7 +74505,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_13";
-						description="[WHITELIST] Police 13";
+						description="[WHITELIST] Police 1";
 						isPlayable=1;
 					};
 					id=4223;
@@ -74689,7 +74526,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_6";
-						description="[WHITELIST] Police 6";
+						description="[WHITELIST] Police 2";
 						isPlayable=1;
 					};
 					id=4224;
@@ -74733,7 +74570,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_11";
-						description="[WHITELIST] Police 11";
+						description="[WHITELIST] Police 3";
 						isPlayable=1;
 					};
 					id=4225;
@@ -74777,7 +74614,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_7";
-						description="[WHITELIST] Police 7";
+						description="[WHITELIST] Police 4";
 						isPlayable=1;
 					};
 					id=4226;
@@ -74798,7 +74635,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_12";
-						description="[WHITELIST] Police 12";
+						description="[WHITELIST] Police 5";
 						isPlayable=1;
 					};
 					id=4227;
@@ -74819,7 +74656,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_14";
-						description="[WHITELIST] Police 14";
+						description="[WHITELIST] Police 6";
 						isPlayable=1;
 					};
 					id=4228;
@@ -74840,7 +74677,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_15";
-						description="[WHITELIST] Police 15";
+						description="[WHITELIST] Police 7";
 						isPlayable=1;
 					};
 					id=4229;
@@ -74861,7 +74698,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_9";
-						description="[WHITELIST] Police 9";
+						description="[WHITELIST] Police 8";
 						isPlayable=1;
 					};
 					id=4230;
@@ -74882,7 +74719,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_8";
-						description="[WHITELIST] Police 8";
+						description="[WHITELIST] Police 9";
 						isPlayable=1;
 					};
 					id=4231;
@@ -74903,7 +74740,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_4";
-						description="[WHITELIST] Police 4";
+						description="[WHITELIST] police 10";
 						isPlayable=1;
 					};
 					id=4232;
@@ -74947,7 +74784,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_2";
-						description="[WHITELIST] Police 2";
+						description="[WHITELIST] Police 11";
 						isPlayable=1;
 					};
 					id=4233;
@@ -74991,7 +74828,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_3";
-						description="[WHITELIST] Police 3";
+						description="[WHITELIST] police 12";
 						isPlayable=1;
 					};
 					id=4234;
@@ -75035,7 +74872,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_5";
-						description="[WHITELIST] Police 5";
+						description="[WHITELIST] Police 13";
 						isPlayable=1;
 					};
 					id=4235;
@@ -75079,7 +74916,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_10";
-						description="[WHITELIST] Police 10";
+						description="[WHITELIST] Police 14";
 						isPlayable=1;
 					};
 					id=4236;
@@ -75124,7 +74961,7 @@ class Mission
 						rank="COLONEL";
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_1";
-						description="[CENTRALE] CENTRALE";
+						description="[WHITELIST] Police 15";
 						isPlayable=1;
 					};
 					id=4237;
@@ -75145,7 +74982,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_17";
-						description="[WHITELIST] Police 17";
+						description="[WHITELIST] Police 16";
 						isPlayable=1;
 					};
 					id=4238;
@@ -75166,7 +75003,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_18";
-						description="[WHITELIST] Police 18";
+						description="[WHITELIST] Police 17";
 						isPlayable=1;
 					};
 					id=4239;
@@ -75187,7 +75024,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_19";
-						description="[WHITELIST] Police 19";
+						description="[WHITELIST] Police 18";
 						isPlayable=1;
 					};
 					id=4240;
@@ -75208,7 +75045,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_20";
-						description="[WHITELIST] Police 20";
+						description="[WHITELIST] Police 19";
 						isPlayable=1;
 					};
 					id=4241;
@@ -75229,7 +75066,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_21";
-						description="[WHITELIST] Police 21";
+						description="[WHITELIST] Police 20";
 						isPlayable=1;
 					};
 					id=4242;
@@ -75250,7 +75087,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_22";
-						description="[WHITELIST] Medecin/Depanneur 21";
+						description="[WHITELIST] MEDIC/ADAC 21";
 						isPlayable=1;
 					};
 					id=4243;
@@ -75294,7 +75131,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_23";
-						description="[WHITELIST] Medecin/Depanneur 23";
+						description="[WHITELIST] MEDIC/ADAC 22";
 						isPlayable=1;
 					};
 					id=4244;
@@ -75338,7 +75175,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_24";
-						description="[WHITELIST] Medecin/Depanneur 24";
+						description="[WHITELIST] MEDIC/ADAC 23";
 						isPlayable=1;
 					};
 					id=4245;
@@ -75359,7 +75196,7 @@ class Mission
 						skill=0.60000002;
 						init="removeBackpack this; removeAllWeapons this;";
 						name="cop_25";
-						description="[WHITELIST] Medecin/Depanneur 25";
+						description="[WHITELIST] MEDIC/ADAC 24";
 						isPlayable=1;
 					};
 					id=4246;
@@ -77114,7 +76951,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this enableSimulation false; this allowDamage false; this addAction[""Process Oil"",life_fnc_processAction,""oil"",0,false,false,"""",' life_inv_oilu > 0 && !life_is_processing']; this addAction[""Oil Processing ($10,000)"",life_fnc_buyLicense,""oil"",0,false,false,"""",' !license_civ_oil && playerSide == civilian '];";
+						init="this enableSimulation false; this allowDamage false; this addAction[""Process Oil"",life_fnc_processAction,""oil"",0,false,false,"""",' life_inv_oilu > 0 && !life_is_processing']; this addAction[""Oil traitement ($10,000)"",life_fnc_buyLicense,""oil"",0,false,false,"""",' !license_civ_oil && playerSide == civilian '];";
 					};
 					id=4350;
 					type="C_man_1";
@@ -78879,7 +78716,7 @@ class Mission
 						skill=0.60000002;
 						rank="COLONEL";
 						name="medic_1";
-						description="[WHITELIST] Medecin/Depanneur 1";
+						description="[WHITELIST] MEDIC/ADAC 1";
 						isPlayable=1;
 					};
 					id=4440;
@@ -78899,7 +78736,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_3";
-						description="[WHITELIST] Medecin/Depanneur 3";
+						description="[WHITELIST] MEDIC/ADAC 2";
 						isPlayable=1;
 					};
 					id=4441;
@@ -78919,7 +78756,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_4";
-						description="[WHITELIST] Medecin/Depanneur 4";
+						description="[WHITELIST] MEDIC/ADAC 3";
 						isPlayable=1;
 					};
 					id=4442;
@@ -78939,7 +78776,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_2";
-						description="[WHITELIST] Medecin/Depanneur 2";
+						description="[WHITELIST] MEDIC/ADAC 4";
 						isPlayable=1;
 					};
 					id=4443;
@@ -78959,7 +78796,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_5";
-						description="[WHITELIST] Medecin/Depanneur 5";
+						description="[WHITELIST] MEDIC/ADAC 5";
 						isPlayable=1;
 					};
 					id=4444;
@@ -78980,7 +78817,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_6";
-						description="[WHITELIST] Medecin/Depanneur 6";
+						description="[WHITELIST] MEDIC/ADAC 6";
 						isPlayable=1;
 					};
 					id=4445;
@@ -79000,7 +78837,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_7";
-						description="[WHITELIST] Medecin/Depanneur 7";
+						description="[WHITELIST] MEDIC/ADAC 7";
 						isPlayable=1;
 					};
 					id=4446;
@@ -79020,7 +78857,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_8";
-						description="[WHITELIST] Medecin/Depanneur 8";
+						description="[WHITELIST] MEDIC/ADAC 8";
 						isPlayable=1;
 					};
 					id=4447;
@@ -79040,7 +78877,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_9";
-						description="[WHITELIST] Medecin/Depanneur 9";
+						description="[WHITELIST] MEDIC/ADAC 9";
 						isPlayable=1;
 					};
 					id=4448;
@@ -79517,7 +79354,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this enableSimulation false; this allowDamage false; this addAction[""Verarbeite Grapes"",life_fnc_processAction,""grapes"",0,false,false,"""",' life_inv_grapes > 0 && !life_is_processing']; this addAction[""Grape Processing License ($10000)"",life_fnc_buyLicense,""grapes"",0,false,false,"""",' !license_civ_grapes && playerSide == civilian '];";
+						init="this enableSimulation false; this allowDamage false; this addAction[""Verarbeite Grapes"",life_fnc_processAction,""grapes"",0,false,false,"""",' life_inv_grapes > 0 && !life_is_processing']; this addAction[""Grape traitement License ($10000)"",life_fnc_buyLicense,""grapes"",0,false,false,"""",' !license_civ_grapes && playerSide == civilian '];";
 					};
 					id=4478;
 					type="C_man_polo_3_F_afro";
@@ -83114,7 +82951,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="civ_66";
-						description="Civil 61";
+						description="Civil 66";
 						isPlayable=1;
 					};
 					id=4685;
@@ -83617,7 +83454,7 @@ class Mission
 						description="Civil 79";
 						isPlayable=1;
 					};
-					id=4711;
+					id=4710;
 					type="C_man_1_3_F";
 					atlOffset=7.6293945e-006;
 					class CustomAttributes
@@ -83858,7 +83695,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_10";
-						description="[WHITELIST] Medecin/Depanneur 10";
+						description="[WHITELIST] MEDIC/ADAC 10";
 						isPlayable=1;
 					};
 					id=4727;
