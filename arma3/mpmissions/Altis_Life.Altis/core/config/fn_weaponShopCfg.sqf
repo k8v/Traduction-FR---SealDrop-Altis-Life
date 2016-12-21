@@ -27,13 +27,14 @@ switch(_shop) do
 			case (playerSide !=west): {"Vous n'êtes pas policier"};
 			default
 			{
-				["Recrue",
+
+				["Gun Shop - Recrues",
 					[
-							["Rangefinder",nil,10],
-							["hgun_Rook40_snds_F","Tazer",1500],
-							["16Rnd_9x21_Mag","Chargeur Tazer 16 coups",100]
+						["Rangefinder",nil,10]
+
 					]
-				];	
+
+				];
 			};
 		};
 	};
@@ -42,7 +43,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"Vous n'êtes pas policier"};
+			case (playerSide != west): {"Vous n'êtes pas policier!"};
 			case (__GETC__(life_coplevel) < 1): {"Accès autoriser seulement au Policier !"};
 			default
 			{
@@ -83,7 +84,7 @@ switch(_shop) do
 	{
 		switch (true) do 
 		{
-			case (playerSide != independent): {"Vous n'êtes pas ADAC"};
+			case (playerSide != independent): {"Vous n'êtes pas ADAC!"};
 			case (__GETC__(life_mediclevel) < 2): {"Accès autoriser seulement au ADAC !"}; 
 			default {
 				["ADAC Shop",
@@ -108,7 +109,7 @@ switch(_shop) do
 	{
 		switch (true) do 
 		{
-			case (playerSide != independent): {"Vous n'êtes pas MEDIC"};
+			case (playerSide != independent): {"Vous n'êtes pas MEDIC!"};
 			case (__GETC__(life_mediclevel) < 1): {"Accès autoriser seulement au MEDIC !"}; 
 			default {
 				["Hospital EMS Shop",
@@ -134,10 +135,11 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide !=west): {"Vous n'êtes pas policier"};
-			case (__GETC__(life_coplevel) < 2): {"Vous n'êtes pas un commissaire !"};
+			case (__GETC__(life_coplevel) < 2): {"Vous n'êtes pas policier !"};
 			default
 			{
-				["Gun Shop - Officielle",
+
+				["Gun Shop - Police",
 					[
 						["arifle_sdar_F","Taser Sturmgewehr",10],
 						["hgun_Rook40_F","Taser-Pistole",10],
@@ -154,11 +156,11 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier"};
-			case (__GETC__(life_coplevel) < 3): {"Vous n'êtes pas un commissaire"};
+			case (playerSide !=west): {"Vous n'êtes pas policier!"};
+			case (__GETC__(life_coplevel) < 3): {"Vous n'êtes pas Chef de Police !"};
 			default
 			{
-				["Gun Shop - Commissaire",
+				["Gun Shop - Chef de Police",
 					[
 						["arifle_MXC_F",nil,10],
 						["arifle_MX_F",nil,10],
@@ -177,11 +179,12 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier"};
-			case (__GETC__(life_coplevel) < 4): {"Vous n'êtes pas un chef de police"};
+			case (playerSide !=west): {"Vous n'êtes pas policier!"};
+			case (__GETC__(life_coplevel) < 4): {"Vous n'êtes pas un SEK !"};
 			default
 			{
-				["Gun Shop - Inspecteur en chef",
+
+				["Gun Shop - SEK",
 					[
 						["SMG_02_F",nil,10],
 						["arifle_TRG20_F",nil,10],
@@ -201,11 +204,11 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier"};
-			case (__GETC__(life_coplevel) < 5): {"Vous n'êtes pas un agent de SWAT"};
+			case (playerSide !=west): {"Vous n'êtes pas policier!"};
+			case (__GETC__(life_coplevel) < 5): {"Vous n'êtes pas un agent de GSG9 !"};
 			default
 			{
-				["Gun Shop - SEK",
+				["Gun Shop - GSG9",
 					[
 						["arifle_MXM_Black_F",nil,10],
 						["arifle_MX_Black_F",nil,10],
@@ -228,11 +231,11 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier"};
-			case (__GETC__(life_coplevel) < 6): {"Vous n'êtes pas dans la GSG9"};
+			case (playerSide !=west): {"Vous n'êtes pas policier!"};
+			case (__GETC__(life_coplevel) < 6): {"Vous n'êtes pas dans la SEK-M !"};
 			default
 			{
-				["Gun Shop - GSG9",
+				["Gun Shop - SEK-M",
 					[
 						["arifle_MXM_Black_F",nil,10],
 						["arifle_MX_Black_F",nil,10],
@@ -259,10 +262,11 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"Vous n'êtes pas policier"};
-			case (!license_civ_rebel): {"Vous avez pas de licence rebelle!"};
+			case (playerSide != civilian): {"Vous n'êtes pas CIVIL!"};
+			case (!license_civ_rebel): {"Vous avez pas de licence rebelle !"};
 			default
 			{
+
 				["Gun Shop - Rebelle",
 					[
 						["arifle_TRG20_F",nil,350000],
@@ -302,8 +306,8 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"Vous n'êtes pas policier"};
-			case (!license_civ_gun): {"Vous avez pas de permis d'armes à feu!"};
+			case (playerSide != civilian): {"Vous n'êtes pas CIVIL!"};
+			case (!license_civ_gun): {"Vous avez pas de permis d'armes à feu !"};
 			default
 			{
 				["Armurerie - Billy Joe's",
@@ -327,7 +331,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (__GETC__(life_donator) == 0): {"Vous n'êtes pas donateur!"};
+			case (__GETC__(life_donator) == 0): {"Vous n'êtes pas un donateur !"};
 			case (__GETC__(life_donator) == 1):
 			{
 				["STS Donator Shop Rang 1",
@@ -438,11 +442,11 @@ switch(_shop) do
     {
         switch(true) do
         {
-            case (playerSide != civilian): {"Vous n'êtes pas Civil"};
-            case (!license_civ_uranium): {"Vous avez besoin d'une licence d'uranium"};
+            case (playerSide != civilian): {"Vous n'êtes pas Civil!"};
+            case (!license_civ_uranium): {"Vous avez besoin d'une licence d'uranium !"};
             default
             {
-                ["Uran Verkäufer",
+                ["Shop - Uranium",
                     [
                         ["ToolKit",nil,200],
                         ["FirstAidKit",nil,100],

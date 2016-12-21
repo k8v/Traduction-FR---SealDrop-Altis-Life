@@ -18,10 +18,10 @@ switch (_side) do
 	case west:
 	{
 		_return = [
-			["cop_spawn_1","Kavala HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_2","Pyrgos HQ","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
-			["cop_spawn_3","Athira HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
-			["cop_spawn_gsg9","GIPN","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["cop_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
+			["cop_spawn_3","Athira","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
+			["cop_spawn_gsg9","SEK/GSG9","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_kilo","Frontière Nord","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_zulu","Frontière Sud","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_bane","Base aérienne","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
@@ -35,36 +35,29 @@ switch (_side) do
 			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["reb_spawn_1","Rebelle HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["reb_spawn_1","Rebelle","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_training","Champ de tir","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
-		
-		if(license_civ_rebel && playerSide == civilian) then 
-		{
-			_return = _return + [
-				["reb_spawn_1","Base Rebelle","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
-			];
-		};
 		
 		if(__GETC__(life_donator) == 3) then 
 		{
 			_return = _return + [
-				["so_spawn_1","Mercenaire HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["don_spawn_1","Donateur HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["so_spawn_1","Mercenaire","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["don_spawn_1","Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
 		if(__GETC__(life_donator) == 1) then
 		{
 			_return = _return + [
-				["don_spawn_1","Donateur HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["don_spawn_1","Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
 		if(__GETC__(life_donator) == 2) then
 		{
 			_return = _return + [
-				["don_spawn_1","Donateur HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["don_spawn_1","Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
@@ -83,8 +76,8 @@ switch (_side) do
 		_return = [
 			["medic_spawn_1","Hopital Kavala","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
 			["medic_spawn_2","Base aérienne","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["adac_spawn_1","Dépanneur Ouest","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
-			["adac_spawn_2","Depanneur Est","\a3\ui_f\data\map\Markers\NATO\b_air.paa"]
+			["adac_spawn_1","ADAC Ouest","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
+			["adac_spawn_2","ADAC Est","\a3\ui_f\data\map\Markers\NATO\b_air.paa"]
 		];
 	};
 };

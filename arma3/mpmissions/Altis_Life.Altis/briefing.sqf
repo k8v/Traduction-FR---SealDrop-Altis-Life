@@ -352,16 +352,16 @@ player createDiarySubject ["controls","Autres"];
 			"Produits illégaux",
 				"
 				Les matières premières suivantes sont illégales:<br/><br/>
-				1. Schildkröten<br/>
-				2. Kokain<br/>
-				3. Heroin<br/>
+				1. Tortues<br/>
+				2. Cocaïne<br/>
+				3. Héroïne<br/>
 				4. Cannabis<br/>
 				5. Marijuana<br/>
 				6. Meth<br/>
-				7. Moonshine<br/>
-				8. GoldBarren<br/>
-				9. Uran III<br/>
-				10. Nieren<br/>
+				7. Alcool de contrebande<br/>
+				8. lingots d'or<br/>
+				9. Uranium III<br/>
+				10. Rognons<br/>
 				"
 		]
 	];
@@ -390,7 +390,6 @@ player createDiarySubject ["controls","Autres"];
 				Left Shift + O: Civ Restrain<br/>
 				Left Shift + Space: Saut<br/>
 				Left Shift + H: Etuis d'armes à feu<br/>
-				Left Shift + P: bouchon anti bruit<br/>
 				Left Windows: Option de logement<br/>
 				Left Windows: Fermes aux champs<br/>
 				Left Windows: Menu Interaction Joueur<br/>

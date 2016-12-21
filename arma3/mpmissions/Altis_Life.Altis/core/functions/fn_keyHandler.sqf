@@ -59,17 +59,6 @@ switch (_code) do
 		};
 	};
 	
-	// ANTI ALT + F4
-	 case 62:
-	{
-		if(_alt && !_shift) then 
-		{
-			SOCK_fnc_updateRequest;
-				diag_log format ["Repport Admin: %1 utilise ALT+F4 pour se déconnecter (Merci de prendre une capture et de le signaler à un admin)",_player getVariable["realname",name _player]];
-				[[1,format["Repport Admin: %1 utilise ALT+F4 pour se déconnecter (Merci de prendre une capture et de le signaler à un admin)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
-			SOCK_fnc_updateRequest;
-		};
-	};
 	//Map Key
 	case _mapKey:
 	{
@@ -78,24 +67,6 @@ switch (_code) do
 			case west: {if(!visibleMap) then {[] spawn life_fnc_copMarkers;}};
 			case independent: {if(!visibleMap) then {[] spawn life_fnc_medicMarkers;}};
 			case civilian: {if(!visibleMap) then {[] spawn life_fnc_gangMarkers;}};
-		};
-	};
-	
-	// SHIFT+P Boule quies
-	case 25:
-	{
-		if(_shift) then
-		{
-			if (soundVolume != 1) then 
-			{
-				1 fadeSound 1;
-				titleText ["Vous avez enlevé vos boules quiès.", "PLAIN"];
-			}
-			else
-			{
-				1 fadeSound 0.1;
-				titleText ["Vous avez mis vos boules quiès.", "PLAIN"];
-			};
 		};
 	};
 	
@@ -148,25 +119,6 @@ switch (_code) do
 			};
 		};
 	};
-	
-	 //SHIFT+C piocher 
-    case 46:
-    {    
-        if(_shift && (!life_action_inUse) && (vehicle player == player) ) then
-        {
-            {
-                _str = [_x] call life_fnc_varToStr;
-                _val = missionNameSpace getVariable _x;
-                if(_val > 0 ) then
-                {
-                    if( _str == "Spitzhacke" || _str == "pickaxe" || _str == "pioche" ) then
-                    {
-                        [] spawn life_fnc_pickAxeUse;
-                    };
-                };
-            } foreach life_inv_items;
-        }
-    };
 	
 	//Knock out - Shift + T
 	case 47:
@@ -276,6 +228,8 @@ switch (_code) do
 			};
 		};
 	};
+
+	
 	//Ö Key
 	case 39:
 	{
