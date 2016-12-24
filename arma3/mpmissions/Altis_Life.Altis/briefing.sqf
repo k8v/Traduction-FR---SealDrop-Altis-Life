@@ -159,7 +159,7 @@ player createDiarySubject ["controls","Autres"];
 		[
 			"Aviation",
 				"
-				Tous les règles sont sur ! www.HOMEPAGE_URL!<br/>hélicoptères ne peuvent voler au dessus de la ville. Cops ne peuvent voler au dessus de la ville sauf si il ya une opération de police actif en cours.<br/><br/>
+				Tous les règles sont sur ! www.HOMEPAGE_URL!<br/>hélicoptères ne peuvent voler au dessus de la ville. Cops ne peuvent voler au dessus de la ville sauf si il ya une opération de Police actif en cours.<br/><br/>
 				"
 		]
 	];
@@ -287,7 +287,7 @@ player createDiarySubject ["controls","Autres"];
 		[
 			"Règles Teamspeak",
 				"
-				1. Tous les agents de police doivent être sur le TeamSpeak.<br/>
+				1. Tous les agents de Police doivent être sur le TeamSpeak.<br/>
 				2. Trouver plus sur HOMEPAGE_URL<br/><br/>
 				"
 		]

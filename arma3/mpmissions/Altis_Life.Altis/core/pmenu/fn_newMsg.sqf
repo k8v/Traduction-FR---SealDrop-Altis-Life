@@ -42,7 +42,7 @@ switch(_type) do
 	//copmessage
 	case 2:
 	{
-		if(({side _x == west} count playableUnits) == 0) exitWith {hintSilent format["La police n'est pas disponible merci de renouveller votre message ultérieurement"];};
+		if(({side _x == west} count playableUnits) == 0) exitWith {hintSilent format["La Police n'est pas disponible merci de renouveller votre message ultérieurement"];};
 		ctrlShow[888895,false];
 		if(_msg == "") exitWith {hintSilent "Vous devez rentrer un message pour envoyer";ctrlShow[888895,true];};
 		[[ObjNull,_msg,player,1],"TON_fnc_handleMessages",false] spawn life_fnc_MP;

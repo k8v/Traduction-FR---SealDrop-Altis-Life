@@ -20,7 +20,7 @@ _kassa = 10000 + round(random 10000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
-if(_chance >= 85) then { hintSilent "Le caissier a activé l'alarme silencieuse, La police est prévenue !"; [[1,format["ALARM! - Station essence: %1 se fait braquer !", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
+if(_chance >= 85) then { hintSilent "Le caissier a activé l'alarme silencieuse, La Police est prévenue !"; [[1,format["ALARM! - Station essence: %1 se fait braquer !", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
 
 _cops = (west countSide allPlayers);
 if(_cops < 2) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hintSilent "There isnt enough Police to rob gas station!";};

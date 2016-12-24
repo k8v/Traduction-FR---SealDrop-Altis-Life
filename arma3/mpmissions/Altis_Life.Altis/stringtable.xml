@@ -932,7 +932,7 @@
 			<Original>There is already a vehicle on the spawn point. You will be refunded the cost of getting out out.</Original>
 			<English>There is already a vehicle on the spawn point. You will be refunded the cost of getting out out.</English>
 			<German>Es steht ein Fahrzeug auf dem Spawnpunkt. Die Kosten für das Ausparken werden dir erstattet.</German>
-			<French>Il y a déjà un véhicule sur le point de spawn. Le coût de sortie du véhicule vous sera remboursé.</French>
+			<French>Il y a deja un vehicule sur le point de spawn. Le cout de sortie du vehicule vous sera rembourse.</French>
 			<Italian>C'è già un veicolo nel punto di creazione. Verrai rimborsato della spesa appena effettuata.</Italian>
 			<Portuguese>Existe um outro veiculo na area de spawn. Você será reembolsado.</Portuguese>
 		</Key>
@@ -1592,7 +1592,7 @@
 			<Original>%1 your %2 is being impounded by the police.</Original>
 			<English>%1 your %2 is being impounded by the police.</English>
 			<German>%1 dein %2 wird von der Polizei beschlagnahmt.</German>
-			<French>%1 votre %2 est envoyé a la fourrière par la police.</French>
+			<French>%1 votre %2 est envoyé a la fourrière par la Police.</French>
 			<Italian>%1 il tuo %2 sta per essere sequestrato dalla Polizia.</Italian>
 			<Portuguese>%1 seu %2 está sendo apreendido pela Polícia</Portuguese>
 		</Key>
@@ -1896,7 +1896,7 @@
 			<Original>You are not a cop.</Original>
 			<English>You are not a cop.</English>
 			<German>Du bist kein Polizist.</German>
-			<French>Vous n'êtes pas flic.</French>
+			<French>Vous n'êtes pas de la Police.</French>
 			<Italian>Non sei un poliziotto.</Italian>
 			<Portuguese>Você não é Policial.</Portuguese>
 		</Key>
@@ -2201,7 +2201,7 @@
 			<Original>There needs to be 5 or more cops online to continue.</Original>
 			<English>There needs to be 5 or more cops online to continue.</English>
 			<German>Es müssen 5 oder mehr Polizisten online sein, um fortfahren zu können.</German>
-			<French>Il faut au minimum 5 flic pour continuer</French>
+			<French>Il faut au minimum 5 Policier pour continuer</French>
 			<Italian>Servono almeno 5 poliziotti online per continuare.</Italian>
 			<Portuguese>É necessário ter pelo menos 5 Policiais online para continuar.</Portuguese>
 		</Key>
@@ -2895,7 +2895,7 @@
 			<Original>%1 your house is being raided by the cops!</Original>
 			<English>%1 your house is being raided by the cops!</English>
 			<German>%1 dein Haus wird von der Polizei durchsucht!</German>
-			<French>%1 votre maison est perquisitionnée par les flics!</French>
+			<French>%1 votre maison est perquisitionnée par la Police!</French>
 			<Italian>%1 la Polizia si sta introducendo in casa tua!</Italian>
 			<Portuguese>%1 Sua casa está sendo vasculhada pela Policia!</Portuguese>
 		</Key>
@@ -3654,7 +3654,7 @@
 			<Original>The timer is ticking! Keep the cops away from the vault!</Original>
 			<English>The timer is ticking! Keep the cops away from the vault!</English>
 			<German>Der Timer läuft! Halte die Polizei von Safe fern!</German>
-			<French>La minuterie est lancée! Gardez les flics loin de la bombe!</French>
+			<French>La minuterie est lancée! Gardez la Police loin de la bombe!</French>
 			<Italian>Il tempo sta scorrendo! Tieni la polizia lontana dalla cassaforte!</Italian>
 			<Portuguese>O tempo está passando, Mantenha os policiais longe do cofre</Portuguese>
 		</Key>
@@ -4672,7 +4672,7 @@
 			<Original>You need to be a cop to use this store!</Original>
 			<English>You need to be a cop to use this store!</English>
 			<German>Du musst ein Polizist sein, um diesen Shop nutzen zu können!</German>
-			<French>Vous devez être un flic pour utiliser ce magasin!</French>
+			<French>Vous devez être un Policier pour utiliser ce magasin!</French>
 			<Italian>Devi essere un poliziotto per utilizzare questo negozio!</Italian>
 			<Portuguese>Você tem que ser Policial para usar essa loja!</Portuguese>
 		</Key>
@@ -5174,35 +5174,35 @@
 		</Key>
 		<Key ID="STR_Civ_RevokeLicense_Driver">
 			<Original>Your Drivers License has been REVOKED by the Police!</Original>
-			<French>Votre permis de conduire a été retiré par la police !</French>
+			<French>Votre permis de conduire a été retiré par la Police !</French>
 		</Key>
 		<Key ID="STR_Civ_RevokeLicense_Truck">
 			<Original>Your Truck License has been REVOKED by the Police!</Original>
-			<French>Votre permis poids lourd a été retiré par la police !</French>
+			<French>Votre permis poids lourd a été retiré par la Police !</French>
 		</Key>
 		<Key ID="STR_Civ_RevokeLicense_Pilot">
 			<Original>Your Pilot License has been REVOKED by the Police!</Original>
-			<French>Votre license de pilote a été retirée par la police !</French>
+			<French>Votre license de pilote a été retirée par la Police !</French>
 		</Key>
 		<Key ID="STR_Civ_RevokeLicense_Boating">
 			<Original>Your Boating License has been REVOKED by the Police!</Original>
-			<French>Votre permis de bâteau a été retiré par la police !</French>
+			<French>Votre permis de bâteau a été retiré par la Police !</French>
 		</Key>
 		<Key ID="STR_Civ_RevokeLicense_Diving">
 			<Original>Your Diving License has been REVOKED by the Police!</Original>
-			<French>Votre license de plongée a été retirée par la police !</French>
+			<French>Votre license de plongée a été retirée par la Police !</French>
 		</Key>
 		<Key ID="STR_Civ_RevokeLicense_Taxi">
 			<Original>Your Taxi License has been REVOKED by the Police!</Original>
-			<French>Votre license de chauffeur taxi a été retirée par la police !</French>
+			<French>Votre license de chauffeur taxi a été retirée par la Police !</French>
 		</Key>
 		<Key ID="STR_Civ_RevokeLicense_AllMotor">
 			<Original>Your Motor Vehicle Licenses have been REVOKED by the Police!</Original>
-			<French>Vos licences de véhicules automobiles ont été retirées par la police !</French>
+			<French>Vos licences de véhicules automobiles ont été retirées par la Police !</French>
 		</Key>
 		<Key ID="STR_Civ_RevokeLicense_Firearm">
 			<Original>Your Firearms License has been REVOKED by the Police!</Original>
-			<French>Votre permis de port d'arme a été retiré par la police !</French>
+			<French>Votre permis de port d'arme a été retiré par la Police !</French>
 		</Key>
 		</Package>
 		<Key ID="STR_Civ_LicenseRemove_1a">

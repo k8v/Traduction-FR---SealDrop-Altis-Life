@@ -13,7 +13,7 @@ disableSerialization;
 //Cop / Civ Pre Check
 if((_this select 3) in ["bruce","dive","reb","soldner"] && playerSide != civilian) exitWith {hintSilent "Tu dois être un civil pour utiliser ce magasin"; closeDialog 0;};
 if((_this select 3) == "reb" && !license_civ_rebel) exitWith {hintSilent "Tu n'as pas de licence Rebelle"; closeDialog 0;};
-if((_this select 3) in ["cop"] && playerSide != west) exitWith {hintSilent "Tu dois être flic pour utiliser ce magasin"; closeDialog 0;};
+if((_this select 3) in ["cop"] && playerSide != west) exitWith {hintSilent "Tu dois être Policier pour utiliser ce magasin"; closeDialog 0;};
 if((_this select 3) in ["medic"] && !license_med_air && playerSide != independent) exitWith {hintSilent "Tu dois être médecin pour utiliser ce magasin"; closeDialog 0;};
 if((_this select 3) in ["dive"] && !license_civ_dive) exitWith { hintSilent "Tu dois avoir une licence de plongé pour utiliser ce magasin"; closeDialog 0;};
 
