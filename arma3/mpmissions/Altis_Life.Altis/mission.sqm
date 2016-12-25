@@ -259,6 +259,7 @@ class Mission
 			dataType="Marker";
 			position[]={3269.8215,2.1797624,12967.741};
 			name="police_hq_1";
+			text=" Police";
 			type="mil_warning";
 			colorName="ColorBlue";
 			id=12;
@@ -268,7 +269,7 @@ class Mission
 			dataType="Marker";
 			position[]={16591.059,11.002828,12764.96};
 			name="police_hq_2";
-			text=" Police Pyrgos";
+			text=" Police";
 			type="mil_warning";
 			colorName="ColorWEST";
 			id=13;
