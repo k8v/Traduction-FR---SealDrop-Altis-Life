@@ -24,7 +24,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier"};
+			case (playerSide !=west): {"Vous n'êtes pas Policier"};
 			default
 			{
 
@@ -43,7 +43,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"Vous n'êtes pas policier!"};
+			case (playerSide != west): {"Vous n'êtes pas Policier!"};
 			case (__GETC__(life_coplevel) < 1): {"Accès autoriser seulement au Policier !"};
 			default
 			{
@@ -134,12 +134,12 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier"};
-			case (__GETC__(life_coplevel) < 2): {"Vous n'êtes pas policier !"};
+			case (playerSide !=west): {"Vous n'êtes pas Policier"};
+			case (__GETC__(life_coplevel) < 2): {"Vous n'êtes pas Policier !"};
 			default
 			{
 
-				["Gun Shop - Police",
+				["Gun Shop - Policier",
 					[
 						["arifle_sdar_F","Taser Sturmgewehr",10],
 						["hgun_Rook40_F","Taser-Pistole",10],
@@ -156,7 +156,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier!"};
+			case (playerSide !=west): {"Vous n'êtes pas Policier !"};
 			case (__GETC__(life_coplevel) < 3): {"Vous n'êtes pas Chef de Police !"};
 			default
 			{
@@ -179,12 +179,12 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier!"};
-			case (__GETC__(life_coplevel) < 4): {"Vous n'êtes pas un SEK !"};
+			case (playerSide !=west): {"Vous n'êtes pas Policier !"};
+			case (__GETC__(life_coplevel) < 4): {"Vous n'êtes pas Commandant de Police !"};
 			default
 			{
 
-				["Gun Shop - SEK",
+				["Gun Shop - Commandant de Police",
 					[
 						["SMG_02_F",nil,10],
 						["arifle_TRG20_F",nil,10],
@@ -204,11 +204,11 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier!"};
-			case (__GETC__(life_coplevel) < 5): {"Vous n'êtes pas un agent de GSG9 !"};
+			case (playerSide !=west): {"Vous n'êtes pas Policier !"};
+			case (__GETC__(life_coplevel) < 5): {"Vous n'êtes pas SEK !"};
 			default
 			{
-				["Gun Shop - GSG9",
+				["Gun Shop - SEK",
 					[
 						["arifle_MXM_Black_F",nil,10],
 						["arifle_MX_Black_F",nil,10],
@@ -231,11 +231,11 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Vous n'êtes pas policier!"};
-			case (__GETC__(life_coplevel) < 6): {"Vous n'êtes pas dans la SEK-M !"};
+			case (playerSide !=west): {"Vous n'êtes pas Policier !"};
+			case (__GETC__(life_coplevel) < 6): {"Vous n'êtes pas GSG9 !"};
 			default
 			{
-				["Gun Shop - SEK-M",
+				["Gun Shop - GSG9",
 					[
 						["arifle_MXM_Black_F",nil,10],
 						["arifle_MX_Black_F",nil,10],

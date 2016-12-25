@@ -266,10 +266,9 @@ player createDiarySubject ["controls","Autres"];
 				1. Recrues<br/>
 				2. Police<br/>
 				3. Chef de Police<br/>
-				4. SEK<br/>
-				5. GSG9<br/>
-				6. SEK-M<br/>
-				7. ADMINS<br/>
+				4. Commandant de Police<br/>
+				5. SEK<br/>
+				6. GSG9<br/>
 				"
 		]
 	];
