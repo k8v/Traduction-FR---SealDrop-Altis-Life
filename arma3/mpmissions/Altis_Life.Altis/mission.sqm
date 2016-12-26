@@ -77593,7 +77593,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this allowDamage false;  this enableSimulation false; this addAction[""Licences"",life_fnc_licenses,[""driver"",""boat"",""pilot"",""truck"",""home""],0,true,true,"""",' playerSide == civilian ']; this setVariable[""realname"",""Licence""];";
+						init="this allowDamage false;  this enableSimulation false; this addAction[""Licences"",life_fnc_licenses,[""driver"",""boat"",""pilot"",""truck"",""home""],0,true,true,"""",' playerSide == civilian ']; this setVariable[""realname"",""Licences""];";
 						name="license_shop";
 					};
 					id=4383;
