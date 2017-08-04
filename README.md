@@ -41,12 +41,12 @@ You can find the installation steps here: [Installation Guide](https://github.co
 [Tonic](https://github.com/TAWTonic)
 ___
 <h1 align="center">Traduction FR - SealDrop Altis-Life</h1>
-###Installation Traduction
-- Arrêt du serveur
-- Décompresser le fichier zip 
-- Glisser le dossier **arma3** sur le FTP de votre serveur avec [FileZilla](https://filezilla-project.org/l)
-- Puis cocher comme sur l'image :
-
-<img src="http://i.imgur.com/d9kXWeS.png" alt="FileZilla" />
-- Redémarrer serveur
-- Enjoy' :+1: 
+###Installation Traduction</br>
+- Arrêt du serveur</br>
+- Décompresser le fichier zip </br>
+- Glisser le dossier **arma3** sur le FTP de votre serveur avec [FileZilla](https://filezilla-project.org/l)</br>
+- Puis cocher comme sur l'image :</br>
+</br>
+<img src="http://i.imgur.com/d9kXWeS.png" alt="FileZilla" /></br>
+- Redémarrer serveur</br>
+- Enjoy' :+1: </br>
