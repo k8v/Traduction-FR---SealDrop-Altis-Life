@@ -48,5 +48,5 @@ ___
 - Puis cocher comme sur l'image :</br>
 </br>
 <img src="http://i.imgur.com/d9kXWeS.png" alt="FileZilla" /></br>
-- Redémarrer serveur</br>
+- Redémarrer le serveur</br>
 - Enjoy' :+1: </br>
