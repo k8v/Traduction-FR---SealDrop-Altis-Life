@@ -227,6 +227,7 @@
  			<Original>The player selected doesn't seem to exist?</Original>
  			<English>The player selected doesn't seem to exist?</English>
 			<German>Der Spieler scheint nicht zu existieren?</German>
+			<French>Le joueur sélectionné ne semble pas exister?</French>
  			<Italian>Sembra che il giocatore selezionato non esista</Italian>
 			<Portuguese>O jogador selecionado parece não existir!</Portuguese>
  		</Key>
@@ -2975,6 +2976,7 @@
 			<Original>House has been locked up.</Original>
 			<English>House has been locked up.</English>
 			<German>Haus wurde abgeschlossen.</German>
+			<French>La maison était fermée à clé.</French>
 			<Italian>La casa è stata bloccata.</Italian>
 			<Portuguese>Sua casa foi trancada!</Portuguese>
 		</Key>
@@ -4391,11 +4393,15 @@
 			<Portuguese>Guardar Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_RemoveWeapons">
-			<Original>Waffen nehmen</Original>
+			<Original>Take weapons</Original>
+			<English>Take weapons</English>
+			<French>Prendre les armes</French>
 			<German>Waffen nehmen</German>
 		</Key>
 		<Key ID="STR_pInAct_Breathalyzer">
-			<Original>Alkohol Test</Original>
+			<Original>Alcohol test</Original>
+			<English>Alcohol test</English>
+			<French>Test d'alcoolémie</French>
 			<German>Alkohol Test</German>
 		</Key>
 		<Key ID="STR_pInAct_SellHouse">
